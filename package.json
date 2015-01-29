@@ -1,7 +1,7 @@
 {
   "name": "uniqua",
   "version": "1.0.0",
-  "description": "A sassy way to get unique items (value types) from an array",
+  "description": "A sassy way to get unique items from an array",
   "main": "index.js",
   "scripts": {
     "test": "node ./tests"
@@ -25,5 +25,8 @@
     "array",
     "keys",
     "values"
-  ]
+  ],
+  "dependencies": {
+    "weak-map": "^1.0.5"
+  }
 }

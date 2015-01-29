@@ -1,10 +1,13 @@
 # uniqua
 
-A sassy way to get unique items (value types) from an array
+A sassy way to get unique items from an array
 
 ## usage
 
     var unquia = require('unquia'),
-        data = [1, 2, 3, 1, 2, 3];
+        foo = {foo: 'bar'},
+        data = [1, foo, null, undefined, 1, foo, null, undefined],
 
-    console.log(unquia(data)); // [1, 2, 3]
+    var result = unquia(data);
+
+    console.log(result); // [1, 2, 3]
