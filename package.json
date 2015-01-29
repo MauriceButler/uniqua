@@ -24,7 +24,9 @@
     "shaniqua",
     "array",
     "keys",
-    "values"
+    "values",
+    "duplicates",
+    "distinct"
   ],
   "dependencies": {
     "weak-map": "^1.0.5"
