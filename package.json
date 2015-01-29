@@ -1,0 +1,29 @@
+{
+  "name": "uniqua",
+  "version": "1.0.0",
+  "description": "A sassy way to get unique items (value types) from an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauriceButler/uniqua.git"
+  },
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/uniqua/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/uniqua",
+  "devDependencies": {
+    "tape": "^3.4.0"
+  },
+  "keywords": [
+    "unique",
+    "shaniqua",
+    "array",
+    "keys",
+    "values"
+  ]
+}
