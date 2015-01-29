@@ -26,7 +26,8 @@
     "keys",
     "values",
     "duplicates",
-    "distinct"
+    "distinct",
+    "remove"
   ],
   "dependencies": {
     "weak-map": "^1.0.5"

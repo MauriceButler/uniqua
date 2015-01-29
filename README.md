@@ -4,10 +4,10 @@ A sassy way to get unique items from an array
 
 ## usage
 
-    var unquia = require('unquia'),
+    var uniqua = require('uniqua'),
         foo = {foo: 'bar'},
-        data = [1, foo, null, undefined, 1, foo, null, undefined],
+        data = [1, foo, 'bar', null, undefined, 1, foo, 'bar', null, undefined];
 
-    var result = unquia(data);
+    var result = uniqua(data);
 
-    console.log(result); // [1, 2, 3]
+    console.log(result); // [1, {foo: 'bar'}, 'bar', null, undefined]
